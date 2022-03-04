@@ -1,0 +1,50 @@
+.profile-img {
+  height: 40px;
+  width: 40px;
+}
+
+.icon {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.black {
+  color: #000000;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.sun-icon {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.moon-icon {
+  color: #000000;
+  font-size: 20px;
+}
+
+.profile-img {
+  width: 30px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .profile-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .icon {
+    display: none;
+  }
+  .logo {
+    width: 150px;
+  }
+  .sun-icon {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,66 @@
+.thumbnail-img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.li-container {
+  width: 300px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-img-url {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.profile-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.title {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  color: #1e293b;
+  margin-top: 0px;
+}
+
+.name-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.videoCount-publish {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -40px;
+  list-style: disc;
+}
+
+.li-count {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-right: 20px;
+  color: #475569;
+}
+
+.white {
+  color: #ffffff;
+}
